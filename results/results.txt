@@ -1,0 +1,55 @@
+
+RESULTS:
+
+1) Along with energy coefficient frame accuracies:
+
+	a) mfcc	for no of components = 64: the accuracy is 14.306779435858832
+	b) mfcc_delta for no of components = 64: the accuracy is 18.78337687641146
+	c) mfcc_delta_delta for no of components = 64 the accuracy is 19.170836469910995
+        
+        
+2) along with out energy coefficient frame accuracies:
+  	a) mfcc
+        for no of components = 2: the accuracy is 11.213302041358544%
+        for no of components = 4: the accuracy is 13.877695611743345%
+        for no of components = 8: the accuracy is 13.784262498339459%
+        for no of components = 16: the accuracy is 13.780055794181465%
+        for no of components = 32: the accuracy is 13.84315635655139%
+        for no of components = 64: the accuracy is 13.246911393526103%
+        for no of components = 128: the accuracy is 12.609263605366868%
+        for no of components = 256: the accuracy is 12.010361776557588%
+
+	b) mfcc_delta
+        for no of components = 64: the accuracy is 17.146083337023423%
+	c) mfcc_delta_delta
+        for no of components = 64 the accuracy is 17.037373245361557%
+
+
+3)Along with energy coefficient PER(Phoneme Error Rate):
+
+	a) mfcc
+        for no of components = 64: the PER is 85.693%
+	b) mfcc_delta
+        for no of components = 64: the PER is 81.217%
+	c) mfcc_delta_delta
+        for no of components = 64: the PER is 80.829%
+        
+        
+4)With out energy coefficient PER(Phoneme Error Rate):
+	a) mfcc
+        for no of components = 2: the PER is 88.787% 
+        for no of components = 4: the PER is 86.122% 
+        for no of components = 8: the PER is 86.216% 
+        for no of components = 16: the PER is 86.220%
+        for no of components = 32: the PER is 86.157%
+        for no of components = 64: the PER is 86.753%
+        for no of components = 128: the PER is 87.391%
+        for no of components = 256: the PER is 87.990%
+
+	b) mfcc_delta
+        for no of components = 64: the PER is 82.854%
+	c) mfcc_delta_delta
+        for no of components = 64 the PER is 82.963% 
+
+
+
